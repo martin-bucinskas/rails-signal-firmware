@@ -7,6 +7,10 @@ This project is built with the help of `avr-hal-template`.
 
 ```bash
 cargo install ravedude
+
+usbipd wsl list
+usbipd wsl attach --busid 1-10
+
 cargo run
 ```
 ## Tools
